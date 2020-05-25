@@ -298,9 +298,6 @@
 	};
 
 	axisProto.setCategories = function (newCategories, doRedraw) {
-		if (this.categories) {
-			this.cleanGroups();
-		}
 		this.setupGroups({
 			categories: newCategories
 		});
